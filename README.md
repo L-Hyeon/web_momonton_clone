@@ -14,3 +14,5 @@ A clone of the productivity chrome app [Momentum](https://chrome.google.com/webs
 ## Try it out
 
 [https://serranoarevalo.github.io/momonton/](https://serranoarevalo.github.io/momonton/)
+
+Original by Nomad Coder, https://serranoarevalo.github.io/momonton/
