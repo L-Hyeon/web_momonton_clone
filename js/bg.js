@@ -1,9 +1,8 @@
 const UNSPLASH_API_KEY =
   "b491e86a6957b396f44f1e15e41d3d242e17aa982607f161b95defd195c7f4dd";
-const UNSPLASH_URL = `https://images.unsplash.com/photo-1553615738-d8e0829f1d61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2064&q=80`;
+const UNSPLASH_URL = `https://api.unsplash.com/photos/random/?client_id=${UNSPLASH_API_KEY}&query=landscape&orientation=landscape`;
 
-const body = document.querySelector("body"),
-  locationContainer = document.querySelector(".js-location span");
+locationContainer = document.querySelector(".js-location span");
 
 function loadBackground() {
   const savedImage = localStorage.getItem("bg");
